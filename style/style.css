@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+/* a{
+    text-decoration: none;
+    color: #9F9F9F;
+} */
+
+.header{
+    height: 427px;
+    background-image: url("../images/banniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 91px;
+    background: #fff;
+}
+
+.header-navbar-link {
+    position: relative;
+    left: -200px;
+    width: 605px;
+}
+
+.header-navbar-link a{
+    text-decoration: none;
+    color: #9F9F9F;
+    margin-right: 80px;
+    
+}
+
+.header-navbar-link a:hover{
+    color: #000;
+}
+
+.header-social-media{
+    position: relative;
+    right: -300px;
+}
+
+.header-social-media a{    
+    padding: 8px 10px;
+    color: #9F9F9F;
+}  
+
+.header-social-media a:hover{
+    color: #000;
+}
+
+.activated-link{
+    color: #000!important;
+}
